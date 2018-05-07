@@ -24,7 +24,9 @@ commands = [
 	'set_configuration_files', 
 	'show_errors', 
 	'run_maintenance', 
-	'stop_all_replicas'
+	'stop_all_replicas',
+	'start_logger',
+	'stop_logger'
 	]
 
 command_help = ','.join(commands)
